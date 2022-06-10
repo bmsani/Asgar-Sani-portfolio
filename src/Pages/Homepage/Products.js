@@ -7,7 +7,7 @@ import arrow from '../../assets/icons/right-arrow.png'
 const Products = () => {
     return (
         <div className='mt-36'>
-            <div className="grid lg:grid-flow-row grid-cols-5">
+            <div className="grid lg:grid-flow-row lg:grid-cols-5">
                 <div className="col-span-1">
                     <h4 className='text-primary text-xl'>Services</h4>
                     <h3 className='text-3xl font-bold pb-3'>I provide
@@ -15,32 +15,32 @@ const Products = () => {
                         <img className='h-8' src={arrow} alt="" />
                 </div>
                 <div className="col-span-4">
-                    <div className="flex gap-5">
-                        <div class="card bg-base-100 shadow-xl">
+                    <div className="flex flex-col lg:flex-row gap-5">
+                        <div class="basis-1/3 card bg-base-100 shadow-xl">
                             <span className='pt-3 mx-auto'>
                                 <img src={WebDesing} alt="" />
                             </span>
                             <div class="card-body items-center text-center">
                                 <h2 class="card-title">Responsive Website Design</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <p>Convert your psd or figma to Responsive website layout</p>
                             </div>
                         </div>
-                        <div class="card bg-base-100 shadow-xl">
+                        <div class="basis-1/3 card bg-base-100 shadow-xl">
                             <span className='pt-3 mx-auto'>
                                 <img src={reactLogo} alt="" />
                             </span>
                             <div class="card-body items-center text-center">
                                 <h2 class="card-title"> MERN Stack Development</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <p>Create fullstack Website for your small business</p>
                             </div>
                         </div>
-                        <div class="card bg-base-100 shadow-xl">
+                        <div class="basis-1/3 card bg-base-100 shadow-xl">
                             <span className='pt-3 mx-auto'>
                                 <img src={Wordpress} alt="" />
                             </span>
                             <div class="card-body items-center text-center">
                                 <h2 class="card-title">Wordpress Customization</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                                <p>Launch a Quick Website for your business</p>
                             </div>
                         </div>
                     </div>

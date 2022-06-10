@@ -14,8 +14,8 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="">
-                        <h3 className='text-2xl font-bold'>8 Years job</h3>
-                        <h4 className='text-primary text-xl'>Experience</h4>
+                        <h3 className='text-2xl font-bold'>Wordpress</h3>
+                        <h4 className='text-primary text-xl'>Cms Knowledge</h4>
                     </div>
                 </div>
                 <div className="flex items-center">
@@ -25,8 +25,8 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="">
-                        <h3 className='text-2xl font-bold'>8 Years job</h3>
-                        <h4 className='text-primary text-xl'>Experience</h4>
+                        <h3 className='text-2xl font-bold'>10+ Projects</h3>
+                        <h4 className='text-primary text-xl'>Completed</h4>
                     </div>
                 </div>
                 <div className="flex items-center">
@@ -36,8 +36,8 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="">
-                        <h3 className='text-2xl font-bold'>8 Years job</h3>
-                        <h4 className='text-primary text-xl'>Experience</h4>
+                        <h3 className='text-2xl font-bold'>Support</h3>
+                        <h4 className='text-primary text-xl'>online 24/7</h4>
                     </div>
                 </div>
                 

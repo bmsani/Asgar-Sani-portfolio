@@ -2,8 +2,8 @@ import React from 'react';
 
 const WhyChooseMe = () => {
     return (
-        <div className='my-16'>
-            <h4 className='text-primary text-2xl text-center'>Why Choose Me</h4>
+        <div className='mb-16 mt-24'>
+            <h4 className='text-primary text-2xl text-center pb-5'>Why Choose Me</h4>
             <h5 className='text-secondary text-3xl text-center pb-8'>My Expertise Area</h5>
             <div className="grid lg:grid-flow-col lg:grid-cols-2 lg:gap-10">
                 <div className='col-span-1'>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
 import Contact from './Contact';
+import MyProjects from './MyProjects';
 import Products from './Products';
 import Services from './Services';
 import WhyChooseMe from './WhyChooseMe';
@@ -13,6 +14,7 @@ const Homepage = () => {
             <Services></Services>
             <Products></Products>
             <WhyChooseMe></WhyChooseMe>
+            <MyProjects></MyProjects>
             <Contact></Contact>
             </div>
         </div>
