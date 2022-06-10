@@ -5,7 +5,7 @@ const WhyChooseMe = () => {
         <div className='my-16'>
             <h4 className='text-primary text-2xl text-center'>Why Choose Me</h4>
             <h5 className='text-secondary text-3xl text-center pb-8'>My Expertise Area</h5>
-            <div className="grid grid-flow-col grid-cols-2 gap-10">
+            <div className="grid lg:grid-flow-col lg:grid-cols-2 lg:gap-10">
                 <div className='col-span-1'>
                     <div className='pb-3'>
                         <h2 className='font-bold text-[16px]'>Html</h2>
