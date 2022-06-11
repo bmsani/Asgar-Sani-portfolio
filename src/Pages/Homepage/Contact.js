@@ -6,14 +6,22 @@ import JotformEmbed from 'react-jotform-embed';
 
 const Contact = () => {
     return (
-        <div className='grid lg:grid-flow-col lg:grid-cols-2 gap-16 my-24'>
+        <div id='contact' className='grid lg:grid-flow-col lg:grid-cols-2 gap-16 my-24'>
             <div className="col-span-1">
                 <h2>Let's Connect</h2>
                 <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday</p>
                 <div className='flex gap-3 pt-5'>
+                    <a href="https://www.facebook.com/bmsani6/" target="_blank" rel="noopener noreferrer">
                     <img src={facebook} alt="" />
+                    </a>
+                    <a href="https://github.com/bmsani" target="_blank" rel="noopener noreferrer">
                     <img src={github} alt="" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/md-asgor-sani-322b00160/" target="_blank" rel="noopener noreferrer">
                     <img src={linkedin} alt="" />
+                    </a>
+                    
+                    
                 </div>
             </div>
             <div className="col-span-1">

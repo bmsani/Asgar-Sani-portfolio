@@ -7,8 +7,9 @@ const Header = () => {
     <Link to='/'>Home</Link>
     <Link to='/about'>About</Link>
     <Link to='/blog'>Blog</Link>
-    <Link to='/project'>Projects</Link>
-    <Link to=''>Contact</Link>
+    <a href='home#project'>Projects</a>
+    <a href='home#contact'>Contact</a>
+    
   </>
   return (
     <div class="navbar bg-base-100 w-11/12 mx-auto">
@@ -29,7 +30,7 @@ const Header = () => {
         </ul>
       </div>
       <div class="navbar-end">
-        <a class="btn rounded-none btn-primary text-white border-none">Hire me</a>
+        <a href='https://www.fiverr.com/bm_sani' class="btn rounded-none btn-primary text-white border-none" target='_blank'>Hire me</a>
       </div>
     </div>
   );

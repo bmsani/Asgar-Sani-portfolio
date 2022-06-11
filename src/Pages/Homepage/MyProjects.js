@@ -10,7 +10,7 @@ const MyProjects = () => {
         navigate(`project/${id}`)
     }
     return (
-        <div className='py-24'>
+        <div id='project' className='py-24'>
             <h4 className='text-xl text-primary text-center pb-5'>Portfolio</h4>
             <h3 className='text-3xl text-center pb-12'>My Amazing Works</h3>
             <div className='flex gap-10 items-center lg:justify-evenly lg:flex-row flex-col'>

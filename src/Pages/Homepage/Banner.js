@@ -14,7 +14,7 @@ const Banner = () => {
                     <p className='pb-5'> I am Asgor Sani a junior frontend web developer. I am a tech enthusiast and curious about how the whole world is blessed by modern technology. </p>
                     <button className='btn btn-primary border-none text-white'><a href={resume} download>Download Resume</a></button>
                     {/* <a href={resume} download>hello</a> */}
-                    <button className='ml-5 btn btn-ghost rounded-none text-orange-500 border-none'> Contact me</button>
+                    <button className='ml-5 btn btn-ghost rounded-none text-orange-500 border-none'> <a href="#contact">Contact me</a> </button>
                 </div>
                 <div className="col-span-1 content-center">
                     <img className='block mx-auto' src={sani} alt="" />
